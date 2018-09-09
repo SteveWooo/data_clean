@@ -1,0 +1,12 @@
+{
+	"mysql" : {
+		"host"     : "localhost",
+  		"user"     : "root",
+  		"password" : "111111",
+  		"database" : "social",
+  		"port" : "3306"
+	},
+	"mq" : {
+		"span" : "10"
+	}
+}
