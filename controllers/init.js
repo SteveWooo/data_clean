@@ -5,10 +5,12 @@ module.exports = (conf)=>{
 		config : conf,
 		mysql : mysql.createConnection(conf.mysql),
 		modules : {
-			hotel : require('../modules/hotel/init')
+			hotel : require('../modules/hotel/init'),
+			student : require('../modules/student/init')
 		},
 		controllers : {
-			hotel : require('./hotel/init')
+			hotel : require('./hotel/init'),
+			student : require('./student/init')
 		},
 	}
 	swc.mysql.connect();

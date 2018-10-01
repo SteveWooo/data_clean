@@ -4,4 +4,5 @@ swc.mq = require('./mq/init')(swc);
 swc.mq.run(swc);
 
 //business
-swc.controllers.hotel.run(swc);
+// swc.controllers.hotel.run(swc);
+swc.controllers.student.run(swc);
